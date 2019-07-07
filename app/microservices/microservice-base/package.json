@@ -1,0 +1,19 @@
+{
+  "name": "microservice-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "baseMS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon baseMS.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "seneca": "^3.11.0",
+    "seneca-balance-client": "^0.7.0",
+    "seneca-mesh": "^1.0.0"
+  }
+}

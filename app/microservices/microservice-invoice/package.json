@@ -1,0 +1,20 @@
+{
+  "name": "microservice-invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon invoiceService.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nodemon": "^1.19.1",
+    "seneca": "^3.11.0",
+    "seneca-balance-client": "^0.7.0",
+    "seneca-mesh": "^1.0.0"
+  }
+}
